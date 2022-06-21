@@ -23,20 +23,20 @@
             <span class="background"></span>
             <!-- Results -->
             <span class="navigation-items" id="resultsNav">
-                <h3 class="clickable">Favourites</h3>
+                <h3 class="clickable" onclick="updateDOM('favs')">Favourites</h3>
                 <h3>&nbsp;&nbsp;&nbsp;∥&nbsp;&nbsp;&nbsp;</h3>
-                <h3 class="clickable">Load More</h3>
+                <h3 class="clickable" onclick="getPix()">Load More</h3>
             </span>
             <!-- Favourites -->
-            <span class="navigation-items" id="favouritesNav">
-                <h3 class="cickable">I WANT MORE!</h3>
+            <span class="navigation-items hidden" id="favouritesNav">
+                <h3 class="clickable" onclick="getPix()">I WANT MORE!</h3>
             </span>
         </div>
         <!-- Image Container -->
         <div class="images-container">
-            <div class="card">
+            <!-- <div class="card">
                 <a href="" title="Full Image" target="_blank">
-                    <img src="https://images.unsplash.com/photo-1537420327992-d6e192287183?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=688&q=80" alt="SPACE PIC OF THE DAY" class="card-img-top">
+                    <img src="https://images.unsplash.com/photo-1610296669228-602fa827fc1f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1375&q=80" alt="SPACE PIC OF THE DAY" class="card-img-top">
                 </a>
                 <div class="card-body">
                     <h5 class="card-title">Title</h5>
@@ -47,11 +47,11 @@
                         <span>Copyright</span>
                     </small>
                 </div>
-            </div>
+            </div> -->
         </div>
     </div>
     <!-- Add to fav -->
-    <div class="save-confirm">
+    <div class="save-confirm" hidden>
         <h1>FAVOURITED!</h1>
     </div>
     <script src="script.js"></script>
