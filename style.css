@@ -84,7 +84,8 @@ body {
 
 .card-img-top{
     width: 100%;
-    height: auto;
+    height: 100%;
+    border-radius: 5px 5px 0 0;
 }
 
 .card-body {
@@ -100,7 +101,7 @@ body {
 
 /* Save Confirmation */
 .save-confirm {
-    background: red;
+    background: white;
     padding: 8px 16px;
     border-radius: 5px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
@@ -120,13 +121,18 @@ body {
     body {
         line-height: 1.4rem;
         font-size: 0.9rem;
-
+        text-align: justify;
     }
 
+    .images-container{
+        width: 100%;
+    }
 
     .card-title {
         font-size: 20px;
     }
 
-
+    .save-confirm{
+        right: 25px;
+    }
 }
